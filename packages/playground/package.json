@@ -1,0 +1,20 @@
+{
+  "name": "@mml-playground/mml-doc",
+  "private": true,
+  "scripts": {
+    "build": "tsx ./build.ts --build",
+    "iterate": "tsx ./build.ts --watch",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --max-warnings 0",
+    "lint:fix": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --fix"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@types/react": "18.3.2",
+    "@types/react-dom": "18.3.0"
+  },
+  "devDependencies": {
+    "@mml-io/mml-react-types": "0.17.1"
+  }
+}
